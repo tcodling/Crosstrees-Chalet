@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url(./images/headerPic.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px black solid;
+}
+
+.header h1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
