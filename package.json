@@ -1,0 +1,23 @@
+{
+  "name": "server-side-templating",
+  "version": "0.1.0",
+  "description": "Server-side rendering with Handlebars templates",
+  "author": "EDA",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon index.js",
+    "start": "node index",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
