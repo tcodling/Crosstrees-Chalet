@@ -3,13 +3,14 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    background-color: aliceblue;
+    background-color: rgb(189,214,229);
     text-align: center;
 }
 
 a {
     text-decoration: none;
     color: black;
+    box-shadow: none;
 }
 
 ul {
@@ -37,9 +38,17 @@ ul {
     border: 1px black solid;
 }
 
+.header button {
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(250,25,7);
+    color: white;
+    border-radius: 5px;
+}
+
 #intro {
     background-color: white;
-    padding: 10px;
+    padding: 10px 20%;
     border-bottom: 1px solid black;
 }
 
@@ -66,9 +75,8 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0 10px;
     padding: 10px;
-    border-bottom: black 1px solid;
 }
 
 div.gallery {
@@ -79,10 +87,11 @@ div.gallery {
     width: 180px;
     height: 200px;
     background-color: white;
+    overflow: hidden;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid black;
 }
 
 div.gallery img {
@@ -101,6 +110,7 @@ div.desc {
 /* HOMEPAGE INFO */
 
 #homepageInfo {
-    width: 80%;
-    margin: 0 auto;
+    background-color: white;
+    padding: 10px 20%;
+    border-top: 1px black solid;
 }
