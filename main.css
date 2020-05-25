@@ -27,7 +27,7 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
 }
 
 .header h1 {
@@ -41,7 +41,7 @@ ul {
     background-color: white;
     padding: 10px;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 /* FEATURES */
@@ -69,7 +69,7 @@ ul {
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
-    border-bottom: black 2px solid;
+    border-bottom: black 1px solid;
 }
 
 div.gallery {
@@ -89,7 +89,8 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: 120px;
-    object-fit: contain;
+    object-fit: cover;
+    border-bottom: 1px black solid;
 }
 
 div.desc {
