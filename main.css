@@ -18,6 +18,10 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-size: bold;
+}
+
 /* HEADER */
 
 .header {
@@ -36,10 +40,6 @@ ul {
     background-color: white;
     padding: 10px;
     border: 1px black solid;
-}
-
-.bookNow {
-   /* color: red; */
 }
 
 #intro {
@@ -99,15 +99,17 @@ div.desc {
     padding: 15px;
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 
 /* PAGES */
 
-#homepageInfo {
+#homepageInfo, #special {
     background-color: white;
 }
 
-#homepageInfo, #availability {
+
+#homepageInfo, #availability, #special {
     padding: 10px 20%;
 }
 
