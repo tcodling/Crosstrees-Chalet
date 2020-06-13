@@ -9,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: red;
     box-shadow: none;
 }
 
@@ -38,18 +38,13 @@ ul {
     border: 1px black solid;
 }
 
-.header button {
-    font-size: 30px;
-    border-radius: 5px;
-    background-color: rgb(250,25,7);
-    color: white;
-    border-radius: 5px;
+.bookNow {
+   /* color: red; */
 }
 
 #intro {
     background-color: white;
     padding: 10px 20%;
-    border-bottom: 1px solid black;
 }
 
 /* FEATURES */
@@ -98,7 +93,6 @@ div.gallery img {
     width: 100%;
     height: 120px;
     object-fit: cover;
-    border-bottom: 1px black solid;
 }
 
 div.desc {
@@ -107,19 +101,21 @@ div.desc {
     font-weight: bold;
 }
 
-/* HOMEPAGE INFO */
+/* PAGES */
 
 #homepageInfo {
     background-color: white;
-    padding: 10px 20%;
-    border-top: 1px black solid;
 }
 
-/* Add a black background color to the top navigation */
+#homepageInfo, #availability {
+    padding: 10px 20%;
+}
+
+/* NAVIGATION */
 .topnav {
     background-color: rgb(189,214,229);
     overflow: hidden;
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
     position: fixed;
     width: 100%;
     z-index: 10000000;
@@ -133,10 +129,10 @@ div.desc {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    color: black;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    /* background-color: #ddd; */
     color: red;
 }
