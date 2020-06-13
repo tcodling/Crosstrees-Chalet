@@ -34,12 +34,16 @@ h1 {
     justify-content: flex-end;
     align-items: center;
     border-bottom: 1px black solid;
+    position: relative;
+    top: 10px;
 }
 
 .header h1 {
     background-color: white;
     padding: 10px;
-    border: 1px black solid;
+    width: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
 }
 
 #intro {
@@ -104,12 +108,12 @@ div.desc {
 
 /* PAGES */
 
-#homepageInfo, #special {
+#homepageInfo, #about, #contact {
     background-color: white;
 }
 
 
-#homepageInfo, #availability, #special {
+#homepageInfo, #availability, #special, #about, #map, #contact {
     padding: 10px 20%;
 }
 
