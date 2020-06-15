@@ -25,17 +25,14 @@ h1 {
 /* HEADER */
 
 .header {
-    background-image: url(./images/header.jpg);
-    height: 40vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border-bottom: 1px black solid;
-    position: relative;
-    top: 15px;
+    padding-top: 50px;
+    background: linear-gradient(transparent, white), url("./images/balcony2.jpg") no-repeat top; 
+    background-size: cover; 
 }
 
 .header h1 {
@@ -61,7 +58,7 @@ h1 {
 }
 
 #features li {
-    border: 1px black solid;
+    border-radius: 5px;
     padding: 10px;
     margin: 5px;
     font-weight: bold;
@@ -86,10 +83,6 @@ div.gallery {
     height: 200px;
     background-color: white;
     overflow: hidden;
-}
-
-div.gallery:hover {
-    border: 1px solid black;
 }
 
 div.gallery img {
@@ -137,9 +130,17 @@ div.desc {
     color: black;
 }
 
+.bookNow {
+    background-color: red;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     color: red;
+}
+
+.bookNow:hover {
+    color: white !important
 }
 
 .map {
