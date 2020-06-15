@@ -150,7 +150,23 @@ div.desc {
 
 
 @media only screen and (max-width: 600px) {
+    .topnav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .topnav a {
+        /* font-size: 10px; */
+        padding: 6px;
+    }
+
+    .header {
+        height: 30vh;
+    }
+
     div.gallery {
         width: 100%;
+        margin:  10px auto;
     }
   }
