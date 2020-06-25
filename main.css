@@ -37,6 +37,8 @@ h1 {
 
 .header img {
     height: 30vh;
+    width: 30vh;
+    object-fit: contain;
     border-radius: 50%;
     background-color: white;
 }
@@ -98,12 +100,12 @@ div.desc {
 
 /* PAGES */
 
-#homepageInfo, #about, #contact {
+#homepageInfo, #about, #contact, #reviews {
     background-color: white;
 }
 
 
-#homepageInfo, #availability, #special, #about, #map, #contact {
+#homepageInfo, #availability, #special, #about, #map, #contact, #reviews {
     padding: 50px 20%;
 }
 
@@ -146,6 +148,12 @@ div.desc {
     border-radius: 10px;
 }
 
+/* Reviews */
+
+#reviews li {
+    padding: 10px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .topnav {
@@ -161,6 +169,11 @@ div.desc {
 
     .header {
         height: 30vh;
+    }
+
+    .header img {
+        height: 15vh;
+        width: 15vh;
     }
 
     div.gallery {
