@@ -51,6 +51,7 @@ h1 {
 #intro {
     background-color: white;
     padding: 10px 20%;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 }
 
 /* FEATURES */
@@ -106,6 +107,7 @@ div.desc {
 /* PAGES */
 
 #homepageInfo, #about, #contact, #reviews {
+    box-shadow: 0px 0px 21px -6px rgba(0,0,0,0.75);
     background-color: white;
 }
 
