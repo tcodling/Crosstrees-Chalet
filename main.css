@@ -45,6 +45,7 @@ h1 {
     object-fit: contain;
     border-radius: 50%;
     background-color: white;
+    box-shadow: 5px 6px 20px -10px rgba(0,0,0,0.75);
 }
 
 #intro {
@@ -117,7 +118,7 @@ div.desc {
 .topnav {
     background-color: rgb(189,214,229);
     overflow: hidden;
-    border-bottom: 1px black solid;
+    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.75);
     position: fixed;
     width: 100%;
     z-index: 10000000;
